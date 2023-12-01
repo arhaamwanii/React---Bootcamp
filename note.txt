@@ -14,5 +14,10 @@ JSX
 
 REACT-scripts
     -these scrpits are what convert the code actaully
+    -vite has its own scripts and engines 
+    - CRA has its own build process to convert react code into normal exicutable code
+    -VITE has its own buil dprocesses to convert react code into exicutable js
+
+
 
 

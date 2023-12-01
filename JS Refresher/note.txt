@@ -7,4 +7,15 @@
     or does not support js 
 
 #
+    IMPORT AND EXPORT   
     
+    -in normal vanilla JS we have to specify the file etension of the file as well
+    -in case of react, react does it for us
+
+    -we also have to use "type=module"  ---- thsi ensures the usage of es6 and its newly introduced function
+
+    EXPORT DEFAULT
+    -you can only export a single deault from an file\
+    -you dont name it you just put in the value 
+
+    we decide its name in the file when we import it -- we can name it different in every file
