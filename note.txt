@@ -4,3 +4,10 @@ WHY REACT?
     -not prone to so much bugs
     -there are pre build hooks and stuff which make the job easier 
 
+
+JSX 
+    -writing HTML in js is known as JSX
+    -we cant directly do that as the browser engine does not allow us to do that  
+    -so we need to convert this JSX into seperate files and stuff --- thats basicaly what the scripts in the react  hwlp us do 
+
+    -react shortens the code while compinling it 
