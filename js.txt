@@ -1,5 +1,8 @@
                 JS CODE - SNIPPETS AND THERE FUNCTION
 
+
+
+
 #
     let x = 1;
     x += 2 
@@ -8,6 +11,7 @@
      JavaScript favors string concatenation over numerical addition
      i.e js will convert a number into i string rather than converting a number into the string
     
+
 #
     ACESSING PROPERTIES OF AN ARRAY
     
@@ -23,6 +27,12 @@
     [2]
     BRACKET NOTAION
     it mainly used to acess the value inside the function dynamically
+
+
+
+#
+    console.log(content[1][1]);
+    ACESSING VALUE INSIDE AN ARRAY WHICH IS INSIDE AN ARRAY 
 
 
 #

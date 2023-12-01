@@ -29,6 +29,22 @@ newSnippet();
 //TWO
 
 
+//function to add the class when it is clicked
+
+
+
+
+const one =document.getElementById("one")
+const two =document.getElementById("two")
+const three =document.getElementById("three")
+
+one.addEventListener("click" , ()=> {
+    one.classList.add("add")   
+} )
+two.addEventListener("click"  ,  addClass2)
+three.addEventListener("click" , addclass3)
+
+
 
 
 
