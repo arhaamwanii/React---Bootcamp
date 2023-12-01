@@ -1,0 +1,25 @@
+                JS CODE - SNIPPETS AND THERE FUNCTION
+
+#
+    let x = 1;
+    x += 2 
+    answer -- 3
+
+     JavaScript favors string concatenation over numerical addition
+     i.e js will convert a number into i string rather than converting a number into the string
+    
+#
+    const items = [1, 2, 3, 4, 5];
+
+    for (const item of items) {
+    console.log(item);
+    }
+
+    OUTPUT = 
+    1
+    2
+    3
+    4
+    5
+    
+    it bsically goes over every value  in tge

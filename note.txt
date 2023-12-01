@@ -1,0 +1,6 @@
+                            REACT
+WHY REACT?
+    -it is just better
+    -not prone to so much bugs
+    -there are pre build hooks and stuff which make the job easier 
+
