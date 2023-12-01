@@ -22,4 +22,5 @@
     4
     5
     
-    it bsically goes over every value  in tge
+    it bsically goes over every value  in the arra and calls the function inside it every time
+    ITEM -- representing the  value of inside that particallar 
