@@ -9,6 +9,23 @@
      i.e js will convert a number into i string rather than converting a number into the string
     
 #
+    ACESSING PROPERTIES OF AN ARRAY
+    
+    const person = {
+        name: "araham"
+        age: 17
+    }
+
+    [1]
+    DOT NOTATION
+    console.log(person.name)
+
+    [2]
+    BRACKET NOTAION
+    it mainly used to acess the value inside the function dynamically
+
+
+#
     const items = [1, 2, 3, 4, 5];
 
     for (const item of items) {

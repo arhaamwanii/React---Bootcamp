@@ -3,8 +3,10 @@ const loop = {
     two : ["four"  , "five" ]
 }
 
-for(const item of Object.keys(loop)  ){
+console.log(loop)
 
-    console.log(item);
+for(const item of Object.keys(loop)){
+    item2 = loop[item]
+    console.log(item2);
 }
     // const item = loop[key]
