@@ -11,3 +11,8 @@ JSX
     -so we need to convert this JSX into seperate files and stuff --- thats basicaly what the scripts in the react  hwlp us do 
 
     -react shortens the code while compinling it 
+
+REACT-scripts
+    -these scrpits are what convert the code actaully
+
+

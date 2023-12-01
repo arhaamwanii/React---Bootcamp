@@ -1,0 +1,10 @@
+                    JAVASCRIPT - REFRESH
+
+#
+     <noscript> <noscript/>
+    
+    this is used when the browser has javascript diabled
+    or does not support js 
+
+#
+    
