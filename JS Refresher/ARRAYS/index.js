@@ -48,3 +48,39 @@ const newThree = three.map((arrayElement)=> ({valueOfthatNumberElemetInArray: `$
 
 console.log(newThree)
 
+
+//DESTRUCTURING AN ARRAY
+
+
+const [firstName , secondName , thirdName , fourName ]  = ["one " , "two" , "three" , "four"]
+
+showOnDocument(secondName)
+
+console.log(secondName)
+
+
+//DESTRUCTURING OBJECTS 
+
+const {name , age} = {
+    name: "arham",
+    age: 17
+}
+
+console.log(name)
+
+
+//SPREAD OPERATOR
+
+const skills = ["arham" , "amin" , " wani"]
+
+const newSkills  = ["dayyan" , "amin" , "wani"]
+
+
+const mergedSkills = [...skills, ...newSkills]
+// this will megre all the values of the arrays and forms a new array --- named mergedSkills
+
+console.log(mergedSkills)
+
+
+
+

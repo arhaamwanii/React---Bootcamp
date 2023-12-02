@@ -164,12 +164,47 @@ ARRAYS
     const two = ["different" , "breed"]
 
     const mapedTwo = two.map((item)=> `${item} !`);
-
+ 
     console.log(mapedTwo)
 
     -it creates a new array while iterating on every individual value of the previous array 
     -previous array will reamin unchanged 
-    -we can create an new array whereevery value here is stored in the object there, objects being elements of an array
+    -we can create an new array where  every value here is stored in the object there, objects being elements of an array
+
+
+DESTRUCTURING ARRAYS
+    
+    -const numbers = [1, 2, 3];
+
+    const [first, second, third] = numbers;
+
+    console.log(first);  // 1
+    console.log(second); // 2
+    console.log(third);  // 3
+
+SPREAD OPERATOR
+    it basically just merges the values of the two arrays
+
+    const skills = ["arham" , "amin" , " wani"]
+
+    const newSkills  = ["dayyan" , "amin" , "wani"]
+
+
+    const mergedSkills = [...skills, ...newSkills]
+    // this will megre all the values of the arrays and forms a new array --- named mergedSkills
+    console.log(mergedSkills)
+
+
+    
+
+
+
+
+
+
+
+
+        
 
 
 
