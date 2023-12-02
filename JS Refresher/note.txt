@@ -152,6 +152,29 @@ CALSSES
 
          //CLASSES in JS are used to create a Object using a constructor function peter peter pedd on the peed dog thr  
 
+ARRAYS
+    -technicallly arrays are object
+    -special kinds of objects 
+
+    *we must name the fuction or whatever in js after what it actually does*
+
+.map
+    -it out puts a new array from a previous array 
+
+    const two = ["different" , "breed"]
+
+    const mapedTwo = two.map((item)=> `${item} !`);
+
+    console.log(mapedTwo)
+
+    -it creates a new array while iterating on every individual value of the previous array 
+    -previous array will reamin unchanged 
+    -we can create an new array whereevery value here is stored in the object there, objects being elements of an array
+
+
+
+
+    
 
 
 
