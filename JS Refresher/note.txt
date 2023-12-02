@@ -7,15 +7,111 @@
     or does not support js 
 
 #
-    IMPORT AND EXPORT   
+IMPORT AND EXPORT   
     
-    -in normal vanilla JS we have to specify the file etension of the file as well
-    -in case of react, react does it for us
+    SIMPLE EXPORT
 
-    -we also have to use "type=module"  ---- thsi ensures the usage of es6 and its newly introduced function
+        -in normal vanilla JS we have to specify the file etension of the file as well
+        -in case of react, react does it for us
 
+        -"type=module"  
+        - this ensures the usage of es6 and its newly introduced function   - in react after the build we dont have different files to begin with 
+
+        export let apiKey = "oneTwoThreeFourFive"
+        """"import { apiKey , secondApikey } from './one.js';"""
+   
+   
     EXPORT DEFAULT
-    -you can only export a single deault from an file\
-    -you dont name it you just put in the value 
 
-    we decide its name in the file when we import it -- we can name it different in every file
+        -one file one exprt default
+        -we export it and  then we can respecify its name where we import it    ----  as it being single for a single file it just gets specified from there waht we are reffering to 
+
+        we decide its name in the file when we import it -- we can name it different in every file
+        in this case we dont use curly barases to 
+
+        -component functions are normally exprted as a deafult
+
+        function oneJsFunction(){
+                console.log("keep yours eyes open")
+            }
+
+        export default oneJsFunction
+
+        import newName from "./two.js"
+
+    IMPORTING EVERYTING
+
+        import * as name from "./nameoffile.js"
+
+    like this we can import everything that an file exports including its default export and also its normal eports they can be used as
+    these exports can be accessed as  ----  
+
+        "NAME.EXPORTNAME"        //to use it by the export name specified specificallly 
+        "NAME.DEAFULT"           //to use the deafult export of the file
+
+
+    AS 
+        it is aslo used to rename, while importing a normal export
+        RENAME
+
+
+TYPE FO VALUES 
+    STRINGS 
+    NUMBERS
+    BOOLEINS
+    NULL(specified by the dev) AND UNDEFINED(given as oputput)
+
+
+OPERATORS 
+ 
+    NORMAL 
+
+    -% (Modulus - returns the remainder of a division)
+
+    COMPARION OPERATORS
+
+    -== (Equality)
+    === (Strict equality)
+    != (Inequality)
+    !== (Strict inequality)
+    > (Greater than)
+    < (Less than)
+    >= (Greater than or equal to)
+    <= (Less than or equal to)
+
+
+    VALUE ASSIGNING OPERATORS
+
+    = (Assignment)
+    += (Addition assignment)
+    -= (Subtraction assignment)
+    *= (Multiplication assignment)
+    /= (Division assignment)
+    %= (Modulus assignment) 
+
+    LOGICAL OPERATORS
+
+    && (Logical AND)
+    || (Logical OR)
+    ! (Logical NOT)
+
+    UNIRAY OPERATORS
+
+    - ++ unary incirment
+    - -- unary dicrement
+
+FUNCTION
+    -just a code which will be executed later on 
+
+    TAKES IN --- PARAMETERS
+    -which basically is the value that are specific to the fuction the number of times it is called
+    -they can be cahanged as many times we call the function
+    -VALUES TO THE PARAMETERS -- are known as ARGUMENTS
+
+    we can set a default value to this parameter
+
+
+    WE DEFINE REACT COMPONENTS AS FUNCTIONS
+
+
+

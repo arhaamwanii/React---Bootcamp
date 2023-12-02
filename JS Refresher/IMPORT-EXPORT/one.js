@@ -1,4 +1,6 @@
 export let apiKey = "oneTwoThreeFourFive"
+function oneJsFunction(){
+    console.log("keep yours eyes open")
+}
 
-
-console.log(apiKey)
+export default oneJsFunction
