@@ -192,7 +192,15 @@ SPREAD OPERATOR
 
     const mergedSkills = [...skills, ...newSkills]
     // this will megre all the values of the arrays and forms a new array --- named mergedSkills
-    console.log(mergedSkills)
+    console.log(mergedSkills)\
+    
+
+
+FUCNTIONS CAN BE INPUTED AS VALUES TO OTHER FUNCTION
+
+    SETTIMEOUT 
+    it takes two values as input -- first  a function that you want to delay--- second the amount of time you want to delay it in milli seconds
+     
 
 
     

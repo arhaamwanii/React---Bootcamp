@@ -104,4 +104,29 @@ const array2 = ["fourth" , "fifth" , "sixth"]
 
 const newArray = [...array1 , ...array2]
 
-console.lg(newArray)
+console.log(newArray)
+
+
+
+//CONTROL STRUCTURES
+
+const variable = 1
+
+// if (variable > 2) {
+//     showOnDocument(array1)
+// }else if(variable = 10){
+//     showOnDocument(array2)
+// }else{
+//     showOnDocument("it is a very unfortunate")
+// }
+
+//we can pass functions as values to other functions
+//EX -- SETTIMEOUT
+
+//we dont add () to call the function in this case as in that case it will be called right thee
+
+const delay = "arham amin wani "
+
+setTimeout(() => {
+    showOnDocument(delay)
+}, 4000);
