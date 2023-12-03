@@ -83,7 +83,8 @@ console.log(mergedSkills)
 
 
 
-const me = () => console.log("one two three")
+const me = console.log("one two three")
 
 
-me()
+
+//the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick browm fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over a lazy dog the quick brow nfox jumped right over the lazy dog the quick brown fox juped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brwon fox jumped roght over hte lazy dog the quick brown fox jumped right over the lazy dog the qquik brwon foxx jupped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy doog the quick brown fox jumped right oer the lazy do g the quick brwon fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brwon fox jumped right over the lazy dog  
