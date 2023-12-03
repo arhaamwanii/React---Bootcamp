@@ -87,4 +87,21 @@ const me = console.log("one two three")
 
 
 
+
 //the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick browm fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over a lazy dog the quick brow nfox jumped right over the lazy dog the quick brown fox juped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brwon fox jumped roght over hte lazy dog the quick brown fox jumped right over the lazy dog the qquik brwon foxx jupped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy doog the quick brown fox jumped right oer the lazy do g the quick brwon fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brwon fox jumped right over the lazy dog  
+
+
+console.log("")
+console.log("")
+console.log("")
+console.log("")
+console.log("")
+
+//NEW SECTION
+
+const array1 = ["first" , "second" , "third"]
+const array2 = ["fourth" , "fifth" , "sixth"]
+
+const newArray = [...array1 , ...array2]
+
+console.lg(newArray)
