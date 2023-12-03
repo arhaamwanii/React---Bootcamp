@@ -6,10 +6,11 @@ WHY REACT?
 
 
 JSX 
+    -JS sytax
     -writing HTML in js is known as JSX
     -we cant directly do that as the browser engine does not allow us to do that  
     -so we need to convert this JSX into seperate files and stuff --- thats basicaly what the scripts in the react  hwlp us do 
-
+    -jsx is not supported in the browsern --- so it getts converted by the devlopmetn server
     -react shortens the code while compinling it 
 
 REACT-scripts
@@ -21,8 +22,14 @@ REACT-scripts
 
                 COMPONENTS
 
+-it is just a Function
 -reusable Building Blocks
 -we dont have to make chages in a lot of places
+
+        1. It should return a renderble value
+        2. Function Name should start with a capital Letter
+
+-
 
 
 
