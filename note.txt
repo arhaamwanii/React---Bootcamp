@@ -29,7 +29,8 @@ REACT-scripts
         1. It should return a renderble value
         2. Function Name should start with a capital Letter
 
--
+-INSIDE OF COMPOENTS THE FILE PATHS
+-the path is relative to the location of the HTML file that includes your React application
 
 
 
