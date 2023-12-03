@@ -200,14 +200,42 @@ FUCNTIONS CAN BE INPUTED AS VALUES TO OTHER FUNCTION
 
     SETTIMEOUT 
     it takes two values as input -- first  a function that you want to delay--- second the amount of time you want to delay it in milli seconds
-     
+
+    it possible for custom functions also
+
+    USIGN -- FUNCTION AS VALUE TO ANOTHER FUNCTION 
+
+    function greeter(outGreeting){
+        console.log("this is the value inside the actuall function")
+        outGreeting()
+    }
+
+    greeter(() => {console.log('this is a test message to check the functioning of the function in the callout ')})
+
+DEFINING FUNCTION INSIDE OF FUCNTIONS
+
+    it can be done and is done a lot while working with react 
+
+RETURN STATEMENT
+
+    you can use more than  one ratuern statement but only one will be exivuted as the function is immediately terminated as the return statement is encounterd
 
 
+
+PRIMITIVE DATA TYPES
+
+    ----YOU CANT EDIT THEM YOU WILL HAVE TO OVERWRIE THEM ----
+
+OBJECT
+
+    NON -PRIMTTIVE
     
+    it dosent actaully store the data point it stores the adress of the data point
+    this is waht is known as refference values
 
 
-
-
+IN CASE OF A CONSTANT YOU CANT ---- OVERWRITE IT     --- BUT YOU CAN PUSH ON TO IT
+    
 
 
 

@@ -130,3 +130,39 @@ const delay = "arham amin wani "
 setTimeout(() => {
     showOnDocument(delay)
 }, 4000);
+
+
+function greeter(outGreeting){
+    console.log("this is the value inside the actuall function")
+    outGreeting()
+}
+
+greeter(() => {console.log('this is a test message to check the functioning of the function in the callout ')})
+
+
+//FUCTUIONS AS INPUTS TO OTHER FUNCTUON
+
+console.log("")
+console.log("")
+console.log("")
+console.log("")
+
+
+function ion(){
+    showOnDocument("function in an function test")
+    //this sopes the everuthing inside the function to that function --- functuon has a functional scope
+}
+
+
+//RETURN STATEMENT TEST
+
+function returnTest(){
+    const  x = 2 + 2
+    const y = 3 + 3 
+
+    return x 
+    return y 
+} 
+
+
+console.log(returnTest())
