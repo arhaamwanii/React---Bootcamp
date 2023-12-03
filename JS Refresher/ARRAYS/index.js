@@ -81,6 +81,6 @@ const mergedSkills = [...skills, ...newSkills]
 
 console.log(mergedSkills)
 
-
+//
 
 
