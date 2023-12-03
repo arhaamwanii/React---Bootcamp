@@ -81,6 +81,9 @@ const mergedSkills = [...skills, ...newSkills]
 
 console.log(mergedSkills)
 
-//
 
 
+const me = () => console.log("one two three")
+
+
+me()
