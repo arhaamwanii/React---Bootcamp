@@ -19,5 +19,10 @@ REACT-scripts
     -VITE has its own buil dprocesses to convert react code into exicutable js
 
 
+                COMPONENTS
+
+-reusable Building Blocks
+
+
 
 
