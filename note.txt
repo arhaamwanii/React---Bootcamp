@@ -22,6 +22,8 @@ REACT-scripts
                 COMPONENTS
 
 -reusable Building Blocks
+-we dont have to make chages in a lot of places
+
 
 
 
