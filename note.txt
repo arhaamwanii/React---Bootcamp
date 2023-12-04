@@ -37,6 +37,13 @@ REACT-scripts
 
 OUTPUTTING CONTENT DYNAMICALLY
 
+    -you can use JS in the HTML by using the Curly braaces notation
+    -   {}      everyting in there will be used to build dynamically usabel shit
+
+
+PROPS
+
+    
     
 
 
