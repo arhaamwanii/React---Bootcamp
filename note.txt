@@ -32,6 +32,8 @@ REACT-scripts
 -INSIDE OF COMPOENTS THE FILE PATHS
 -the path is relative to the location of the HTML file that includes your React application
 
+-components can be written either way in one word syntax and two word syntx
+
 
 
 
