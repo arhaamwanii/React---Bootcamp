@@ -1,6 +1,7 @@
-import React from "react"
-import img from "./assets/config.png"
-
+import React from "react";
+import img from "./assets/react-core-concepts.png";
+import img2 from "./assets/components.png";
+import { CORE_CONCEPTS } from "./data";
 
 const reactDiscription = ["Fundamental" , "crutaial" , "core"]
 
@@ -30,12 +31,12 @@ function Header(){
   )
 }
 
-function CoreConcept() {
+function CoreConcept(props) {
   return(
     <li>
-      <img src="" alt="" />
-      <h3>Title</h3>
-      <p>Discrption</p>
+      <img src={props.image} alt="" />
+      <h3>{props.title}</h3>
+      <p>{props.descriptin}</p>
     </li>
   )
 }
@@ -45,8 +46,32 @@ function App() {
     <div>
       <Header/>
       <main>
-        <section id="core-concepts"></section>
-        <h2>Time to get started!</h2>
+        <section id="core-concepts">
+        <h2>Core Concept </h2>
+        <ul>
+          <CoreConcept
+           title={CORE_CONCEPTS[0].title}
+            descriptin={CORE_CONCEPTS[0].description}
+            image={CORE_CONCEPTS[0].image}
+            />
+                  <CoreConcept
+           title={CORE_CONCEPTS[1].title}
+            descriptin={CORE_CONCEPTS[1].description}
+            image={CORE_CONCEPTS[1].image}
+            />  
+            <CoreConcept
+            title={CORE_CONCEPTS[2].title}
+             descriptin={CORE_CONCEPTS[2].description}
+             image={CORE_CONCEPTS[2].image}
+             />
+
+          <CoreConcept
+            title={CORE_CONCEPTS[3].title}
+             descriptin={CORE_CONCEPTS[3].description}
+             image={CORE_CONCEPTS[3].image}
+             />
+        </ul>
+        </section>
       </main>
     </div>
   );

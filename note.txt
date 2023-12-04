@@ -41,10 +41,16 @@ OUTPUTTING CONTENT DYNAMICALLY
     -   {}      everyting in there will be used to build dynamically usabel shit
 
 
-PROPS
+PROPS**
 
-    
-    
+
+    -concept of configuring components is called props 
+    -any kind of value can be passes as a prop to the function 
+
+    -PROPS keyword is used to recieve value from the CallBack
+    -we dont necessarly have to name props props while recienving the value from the call back but as a part of the general syntax it ends up being named as props 
+
+    -PROPS will pass an Object to the function -- we can acess the data from the callback directly here like -- props.name (we use the name we have named the input in the attribute in the callback --- acessing it like props.name)
 
 
 
