@@ -35,6 +35,9 @@ REACT-scripts
 -components can be written either way in one word syntax and two word syntx
 
 
+OUTPUTTING CONTENT DYNAMICALLY
+
+    
 
 
 
