@@ -16,7 +16,7 @@ function Header(){
     <img  style={{borderRadius: "10px"}} src="https://images.pexels.com/photos/990344/pexels-photo-990344.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Stylized atom" />
     <h1>React Essentials</h1>
     <p>
-      Fundamental React concepts you will need for almost any app you are
+      {GenRandomInt()} React concepts you will need for almost any app you are
       going to build!
     </p>
   </header>
