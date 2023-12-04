@@ -28,3 +28,6 @@ export default App;
 
 //here we difined a function in the same file and then used it in the same file as a component in another function 
 //it
+
+
+//comment for another day 
