@@ -2,36 +2,20 @@ import React, { useDebugValue } from "react";
 import img from "./assets/react-core-concepts.png";
 import img2 from "./assets/components.png";
 import { CORE_CONCEPTS } from "./data";
+import Header from "./Components/Header.jsx"
 
 const reactDiscription = ["Fundamental" , "crutaial" , "core"]
 
 
 //this function here, gives us a random number between zero and two
-function GenRandomInt(max) {
-  
+function GenRandomInt(max) {  
   max = reactDiscription[Math.floor(Math.random()* (3))]
   return(
     max
   )
 }
 
-
 console.log(GenRandomInt())
-
-function Header(){
-  return(
-    <header>
-    <img  style={{borderRadius: "10px"}} src={img} alt="Stylized atom" />
-    <h1>React Essentials</h1>
-    <p>
-      {GenRandomInt()} React concepts you will need for almost any app you are
-      going to build!
-    </p>
-  </header>
-  )
-}
-
-
 
 function CoreConcept({image , title , description}) {
   return(
@@ -80,8 +64,11 @@ export default App;
 
 
 
-//here we difined a function in the same file and then used it in the same file as a component in another function 
 
+
+
+//here we difined a function in the same file and then used it in the same file as a component in another function 
+//all the components are not supposed to be in the same file
 
 
 
