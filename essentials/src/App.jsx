@@ -61,17 +61,10 @@ function App() {
 export default App;
 
 //github comment protect 
-
-
-
-
-
-
-
-
-
 //here we difined a function in the same file and then used it in the same file as a component in another function 
 //all the components are not supposed to be in the same file
+
+//damn it just zones in the mind like nothing else exists in that movement.. neural pathways that have been formed over years of usage just get activated and go fuck yourself you aint doing shit after that yeah... there is a big mental side to this as well
 
 
 
@@ -85,3 +78,5 @@ export default App;
 //     </li>
 //   )
 // }
+
+//the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown

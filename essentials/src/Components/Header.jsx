@@ -1,3 +1,5 @@
+import img from "../assets/react-core-concepts.png";
+
 
 function Header(){
     return(
@@ -11,5 +13,7 @@ function Header(){
     </header>
     )
   }
+
+export default Header;
   
   
