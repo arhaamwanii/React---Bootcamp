@@ -1,6 +1,16 @@
 import img from "../assets/react-core-concepts.png";
 
+const reactDiscription = ["Fundamental" , "crutaial" , "core"]
 
+function GenRandomInt(max) {  
+  max = reactDiscription[Math.floor(Math.random()* (3))]
+  return(
+    max
+  )
+}
+
+
+console.log(GenRandomInt())
 function Header(){
     return(
       <header>

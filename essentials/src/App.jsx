@@ -4,18 +4,11 @@ import img2 from "./assets/components.png";
 import { CORE_CONCEPTS } from "./data";
 import Header from "./Components/Header.jsx"
 
-const reactDiscription = ["Fundamental" , "crutaial" , "core"]
+
 
 
 //this function here, gives us a random number between zero and two
-function GenRandomInt(max) {  
-  max = reactDiscription[Math.floor(Math.random()* (3))]
-  return(
-    max
-  )
-}
 
-console.log(GenRandomInt())
 
 function CoreConcept({image , title , description}) {
   return(
@@ -80,4 +73,4 @@ export default App;
 // }
 
 //the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown
-//the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quik 
+//the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quickbrw
