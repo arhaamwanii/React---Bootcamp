@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useDebugValue } from "react";
 import img from "./assets/react-core-concepts.png";
 import img2 from "./assets/components.png";
 import { CORE_CONCEPTS } from "./data";
@@ -36,7 +36,7 @@ function CoreConcept(props) {
     <li>
       <img src={props.image} alt="" />
       <h3>{props.title}</h3>
-      <p>{props.descriptin}</p>
+      <p>{props.description}</p>
     </li>
   )
 }
@@ -49,26 +49,20 @@ function App() {
         <section id="core-concepts">
         <h2>Core Concept </h2>
         <ul>
-          <CoreConcept
-           title={CORE_CONCEPTS[0].title}
-            descriptin={CORE_CONCEPTS[0].description}
-            image={CORE_CONCEPTS[0].image}
+          <CoreConcept 
+          image={CORE_CONCEPTS[0].image}
+          title={CORE_CONCEPTS[0].title}
+          description={CORE_CONCEPTS[0].description}
+           
             />
-                  <CoreConcept
-           title={CORE_CONCEPTS[1].title}
-            descriptin={CORE_CONCEPTS[1].description}
-            image={CORE_CONCEPTS[1].image}
+                  <CoreConcept  {...CORE_CONCEPTS[1]}
+                  //by using this sytax all the elements inside of the array CORE_CONCEPTS will passed as Key value pairs to the Call Back
             />  
-            <CoreConcept
-            title={CORE_CONCEPTS[2].title}
-             descriptin={CORE_CONCEPTS[2].description}
-             image={CORE_CONCEPTS[2].image}
+            <CoreConcept  {...CORE_CONCEPTS[2]}
              />
 
           <CoreConcept
-            title={CORE_CONCEPTS[3].title}
-             descriptin={CORE_CONCEPTS[3].description}
-             image={CORE_CONCEPTS[3].image}
+              {...CORE_CONCEPTS[3]}
              />
         </ul>
         </section>
@@ -77,7 +71,9 @@ function App() {
   );
 }
 
+
 export default App;
+
 
 
 

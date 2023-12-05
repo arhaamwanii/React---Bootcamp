@@ -52,5 +52,19 @@ PROPS**
 
     -PROPS will pass an Object to the function -- we can acess the data from the callback directly here like -- props.name (we use the name we have named the input in the attribute in the callback --- acessing it like props.name)
 
+    Alternative Prop Syntax
+
+    rather than using each key value pair at a time
+    -what we do is that we store it in an array than we just use the spread operator to get all the values in the array using the sytax 
+        {...arrayName}
+    this will pull in all the values of the array and use them here as key value pairs 
+    then we can acess them directly via the name they were named  in the array
+
+
+    
+
+
+
+
 
 
