@@ -41,7 +41,7 @@ OUTPUTTING CONTENT DYNAMICALLY
     -   {}      everyting in there will be used to build dynamically usabel shit
 
 
-PROPS**
+**PROPS**
 
 
     -concept of configuring components is called props 
@@ -60,8 +60,9 @@ PROPS**
     this will pull in all the values of the array and use them here as key value pairs 
     then we can acess them directly via the name they were named  in the array
 
-
-    
+    -here in this case usign the syntax         -{nameOne , nameTwo , nameThree}
+    -instead of using the props statemet or name if we use this we can dirctly recieve the value from the callback and use it here via the actuall name  --- rather than props.Name
+    -name should be same as in the callback other than that it wont mathch and thus it wont work 
 
 
 
