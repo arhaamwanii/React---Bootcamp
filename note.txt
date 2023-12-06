@@ -64,7 +64,8 @@ OUTPUTTING CONTENT DYNAMICALLY
     -instead of using the props statemet or name if we use this we can dirctly recieve the value from the callback and use it here via the actuall name  --- rather than props.Name
     -name should be same as in the callback other than that it wont mathch and thus it wont work 
 
-
+ it is better off to store components in a seperate file and than import them and use them as it is better for reusability
+ 
 
 
 
