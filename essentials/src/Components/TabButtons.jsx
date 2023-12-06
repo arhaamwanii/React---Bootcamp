@@ -1,8 +1,13 @@
-export default function TabButton(props){
+export default function TabButton({buttonInfo , onClick}){
+
+    function handleClick(params) {
+        console.log("fonction to be called when a button is clicked")
+    }
+
     return(
         <>
         <li>
-            <button>{props.buttonInfo}</button>
+            <button onClick={handleClick}>{buttonInfo}</button>
         </li>
         </>
     )

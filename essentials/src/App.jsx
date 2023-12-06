@@ -28,14 +28,8 @@ function App() {
               description={CORE_CONCEPTS[0].description}
           />
             <CoreConcept  {...CORE_CONCEPTS[1]}  />
-                 
-             
-            <CoreConcept  {...CORE_CONCEPTS[2]}
-             />
-
-          <CoreConcept
-              {...CORE_CONCEPTS[3]}
-             />
+            <CoreConcept  {...CORE_CONCEPTS[2]}/>
+            <CoreConcept {...CORE_CONCEPTS[3]}/>
         </ul>
         </section>
 
@@ -44,10 +38,19 @@ function App() {
         <section id="examples" >
           <h2>Exmaples</h2>
           <menu>
-            <TabButton buttonInfo="Info "/>
+            <TabButton buttonInfo="Components "/>
+            <TabButton buttonInfo="JSX"/>
+            <TabButton buttonInfo="Props"/>
+            <TabButton buttonInfo="State"/>
+                
+                {/* buttont to use the children propert in prop and use it recieve the data from the callback*/}
+            <TabButton>Trial Button</TabButton>
           </menu>
         </section>
 
+        {/* --DYNAMIC CONTENT -- */}
+        {/* we need to listen to the cliks inour custom buttons not to the build in buttons */}
+        {/* at the end of the day we are just wrapping actual html elements in our react components  */}
 
       </main>
     </div>
