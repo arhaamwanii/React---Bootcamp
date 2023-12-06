@@ -4,6 +4,7 @@ import img2 from "./assets/components.png";
 import { CORE_CONCEPTS } from "./data";
 import Header from "./Components/Header.jsx"
 import { CoreConcept } from "./Components/CoreConcepts.jsx";
+import TabButton from "./Components/TabButtons.jsx";
 
 
 
@@ -40,10 +41,10 @@ function App() {
 
         {/* --2ND SECTION-- */}
 
-        <section id="example" >
+        <section id="examples" >
           <h2>Exmaples</h2>
           <menu>
-
+            <TabButton buttonInfo="Info "/>
           </menu>
         </section>
 
@@ -54,6 +55,9 @@ function App() {
 }
 
  //by using this sytax all the elements inside of the array CORE_CONCEPTS will passed as Key value pairs to the Call Back}
+//we cant use the normal between opening and clsing tag as we have not rubjected  the told react where to use this shit
+
+
 
 export default App;
 

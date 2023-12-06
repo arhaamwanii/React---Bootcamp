@@ -65,7 +65,11 @@ OUTPUTTING CONTENT DYNAMICALLY
     -name should be same as in the callback other than that it wont mathch and thus it wont work 
 
  it is better off to store components in a seperate file and than import them and use them as it is better for reusability
- 
+
+
+ PROPS.CHILDREN
+    it reffers to the content between the content tags -- opening and closing
+    
 
 
 
