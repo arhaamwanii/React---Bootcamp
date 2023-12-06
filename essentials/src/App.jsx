@@ -72,5 +72,12 @@ export default App;
 //   )
 // }
 
-//the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown
-//the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quickbrw
+
+
+//what I have here -- and how I did it
+
+//We have a header component for which we have made a seperate jsx and then exported it 
+//then we have a another major componnent which is to say recieves -- arguments(we passed on these arguments in a bunch of ways) 
+//PROPS to recieve these arguments and used them to modify the componont 
+  //Porps is an object which contains all the values we use in an callback
+
