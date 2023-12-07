@@ -62,9 +62,7 @@ function App() {
 }
 
  //by using this sytax all the elements inside of the array CORE_CONCEPTS will passed as Key value pairs to the Call Back}
-//we cant use the normal between opening and clsing tag as we have not rubjected  the told react where to use this shit
-//args
-
+//we cant use the normal between opening and clsing tag as we have not rubjected  the told react where to use this shit 
 
 export default App;
 
