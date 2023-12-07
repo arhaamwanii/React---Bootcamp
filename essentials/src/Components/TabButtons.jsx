@@ -16,4 +16,3 @@ export default function TabButton({buttonInfo , onClick , onSelect}){
 }
 
 //onelect is a prop and we set the value to it
-//ghg
