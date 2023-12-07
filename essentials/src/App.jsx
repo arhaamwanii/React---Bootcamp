@@ -15,6 +15,11 @@ import TabButton from "./Components/TabButtons.jsx";
 
 
 function App() {
+
+  function handleSelect(){
+    console.log("Stuff here is in the Handle Select Function" )
+  }
+ 
   return (
     <div>
       <Header/>
@@ -27,7 +32,7 @@ function App() {
               title={CORE_CONCEPTS[0].title}
               description={CORE_CONCEPTS[0].description}
           />
-            <CoreConcept  {...CORE_CONCEPTS[1]}  />
+            <CoreConcept  {...CORE_CONCEPTS[1]}/>
             <CoreConcept  {...CORE_CONCEPTS[2]}/>
             <CoreConcept {...CORE_CONCEPTS[3]}/>
         </ul>
@@ -38,13 +43,12 @@ function App() {
         <section id="examples" >
           <h2>Exmaples</h2>
           <menu>
-            <TabButton buttonInfo="Components "/>
+            <TabButton onSelect={handleSelect} buttonInfo="Components "/>
             <TabButton buttonInfo="JSX"/>
             <TabButton buttonInfo="Props"/>
-            <TabButton buttonInfo="State"/>
-                
-                {/* buttont to use the children propert in prop and use it recieve the data from the callback*/}
-            <TabButton>Trial Button</TabButton>
+            <TabButton buttonInfo="State"/>                
+                {/* buttont to use the children propert in prop and use it recieve the data from the callback*/} 
+            <TabButton  >Trial Button</TabButton>
           </menu>
         </section>
 
@@ -64,10 +68,7 @@ function App() {
 
 export default App;
 
-
-
-
-
+//
 
 
 
