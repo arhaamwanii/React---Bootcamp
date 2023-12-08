@@ -33,3 +33,5 @@ export const CORE_CONCEPTS = [
 //ki
 //lo
 //free comment 9 of the day 
+//free comment 10
+
