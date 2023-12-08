@@ -31,4 +31,5 @@ export const CORE_CONCEPTS = [
 ];
 
 //ki
+//lo
 
