@@ -6,17 +6,12 @@ import Header from "./Components/Header.jsx"
 import { CoreConcept } from "./Components/CoreConcepts.jsx";
 import TabButton from "./Components/TabButtons.jsx";
 
-
-
-
-
 //this function here, gives us a random number between zero and two
-
-
 
 function App() {
 
-  function handleSelect(){
+  function handleSelect(selectedButton){
+    //slected buton containing
     console.log("Stuff here is in the Handle Select Function" )
   }
  
@@ -47,8 +42,9 @@ function App() {
             <TabButton buttonInfo="JSX"/>
             <TabButton buttonInfo="Props"/>
             <TabButton buttonInfo="State"/>                
-                {/* buttont to use the children propert in prop and use it recieve the data from the callback*/} 
+                
             <TabButton  >Trial Button</TabButton>
+            {/* buttont to use the children propert in prop and use it recieve the data from the callback*/} 
           </menu>
         </section>
 
@@ -61,17 +57,11 @@ function App() {
   );
 }
 
- //by using this sytax all the elements inside of the array CORE_CONCEPTS will passed as Key value pairs to the Call Back}
-//we cant use the normal between opening and clsing tag as we have not rubjected  the told react where to use this shit 
-
 export default App;
 
-//
 
-
-
-
-
+ //by using this sytax all the elements inside of the array CORE_CONCEPTS will passed as Key value pairs to the Call Back}
+//we cant use the normal between opening and clsing tag as we have not rubjected  the told react where to use this shit 
 //github comment protect 
 //here we difined a function in the same file and then used it in the same file as a component in another function 
 //all the components are not supposed to be in the same file
@@ -103,3 +93,7 @@ export default App;
 
 
 //what is going on here? is this a low dopamine state? --- but something is going on here 
+//the quick brown fox jumped right over the lazy dog the quick brwon fox jumped right pover the lazy dog the quick brown fox jumped  right over the lazy dog the quick brown fox jumped right over the lazy dog the qucn f
+
+
+//the quick brown fox jumped right over the lazy dog 
