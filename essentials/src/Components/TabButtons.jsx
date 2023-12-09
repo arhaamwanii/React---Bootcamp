@@ -2,7 +2,7 @@ export default function TabButton({buttonInfo , onClick , onSelect , props , chi
    
     
     function handleClick(params) {
-        console.log("fonction to be called when a button is clicked")
+        console.log("Call Back 01")
     }
 
     return(

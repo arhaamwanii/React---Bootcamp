@@ -68,11 +68,17 @@ OUTPUTTING CONTENT DYNAMICALLY
 
 
  PROPS.CHILDREN
+    
     it reffers to the content between the content tags -- opening and closing
     using this value to the prop we can get the which is written in between the opening and closing syntax
     <component>  TEXT INSIDE -- TEXT INSIDE -- TEXT INSIDE <compnent/>
 
     while destruncturing it we do it via using the name children as it literally is a property name in this case also we have not given it the name but that is what it does 
+
+    so just like that we have two options on our table to get the data from inside of the element
+    using the simple kind
+
+
 
 
 
