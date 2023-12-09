@@ -99,3 +99,4 @@ export default App;
 //attempt to increase the number of comments on github
 //anohter one -- this is the event to also do this  stuff to impress people
 //but in order to do this we need
+//most people thinkk world is a zero sum game but as it  turns out that is definetly not the case but what actally is true is that world is not a zero sum game but indeed a postive sum game which in that case, in ord3er for there to be winners it is not necessary to have loosers
