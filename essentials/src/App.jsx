@@ -60,6 +60,8 @@ function App() {
 export default App;
 
 
+//comment attempt
+
  //by using this sytax all the elements inside of the array CORE_CONCEPTS will passed as Key value pairs to the Call Back}
 //we cant use the normal between opening and clsing tag as we have not rubjected  the told react where to use this shit 
 //github comment protect 
@@ -93,7 +95,7 @@ export default App;
 
 
 //what is going on here? is this a low dopamine state? --- but something is going on here 
-//the quick brown fox jumped right over the lazy dog the quick brwon fox jumped right pover the lazy dog the quick brown fox jumped  right over the lazy dog the quick brown fox jumped right over the lazy dog the qucn f
 
-
-//the quick brown fox jumped right over the lazy dog 
+//attempt to increase the number of comments on github
+//anohter one -- this is the event to also do this  stuff to impress people
+//but in order to do this we need
