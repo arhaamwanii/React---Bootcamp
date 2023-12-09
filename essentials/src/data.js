@@ -39,3 +39,4 @@ export const CORE_CONCEPTS = [
 //another day free coment 
 //another one
 //another one
+//the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog the quick  borwn fox jumped right pver the lazy dog the quick brown fox jumped right over the lazy dog the quick brown fox jumped right over the lazy dog
