@@ -42,15 +42,11 @@ function App() {
             <TabButton buttonInfo="JSX"/>
             <TabButton buttonInfo="Props"/>
             <TabButton buttonInfo="State"/>                
-                
-            <TabButton  >Trial Button</TabButton>
-            {/* buttont to use the children propert in prop and use it recieve the data from the callback*/} 
+            <TabButton  buttonInfo="both are used in this case" >Trial Button</TabButton>
+           
           </menu>
         </section>
 
-        {/* --DYNAMIC CONTENT -- */}
-        {/* we need to listen to the cliks inour custom buttons not to the build in buttons */}
-        {/* at the end of the day we are just wrapping actual html elements in our react components  */}
 
       </main>
     </div>
@@ -58,7 +54,13 @@ function App() {
 }
 
 export default App;
+ 
+{/* buttont to use the children propert in prop and use it recieve the data from the callback*/} 
 
+
+        {/* --DYNAMIC CONTENT -- */}
+        {/* we need to listen to the cliks inour custom buttons not to the build in buttons */}
+        {/* at the end of the day we are just wrapping actual html elements in our react components  */}
 
 //comment attempt
 

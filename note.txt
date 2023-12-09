@@ -72,6 +72,8 @@ OUTPUTTING CONTENT DYNAMICALLY
     using this value to the prop we can get the which is written in between the opening and closing syntax
     <component>  TEXT INSIDE -- TEXT INSIDE -- TEXT INSIDE <compnent/>
 
+    while destruncturing it we do it via using the name children as it literally is a property name in this case also we have not given it the name but that is what it does 
+
 
 
 

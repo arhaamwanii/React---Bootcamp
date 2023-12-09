@@ -1,4 +1,4 @@
-export default function TabButton({buttonInfo , onClick , onSelect}){
+export default function TabButton({buttonInfo , onClick , onSelect , props , children}){
    
     
     function handleClick(params) {
@@ -8,11 +8,12 @@ export default function TabButton({buttonInfo , onClick , onSelect}){
     return(
         <>
             <li>
-                <button onClick={handleClick}>{buttonInfo}</button>
+                <button onClick={handleClick}>{buttonInfo} {children}</button>
             </li>
         </>
 
     )
 }
+
 
 //onelect is a prop and we set the value to it
