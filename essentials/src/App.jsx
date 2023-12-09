@@ -42,7 +42,7 @@ function App() {
             <TabButton buttonInfo="JSX"/>
             <TabButton buttonInfo="Props"/>
             <TabButton buttonInfo="State"/>                
-            <TabButton  buttonInfo="both are used in this case" >Trial Button</TabButton>
+            <TabButton buttonInfo="both are used in this case" >Trial Button</TabButton>
            
           </menu>
         </section>
