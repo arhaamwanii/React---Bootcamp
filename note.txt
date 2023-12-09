@@ -76,7 +76,12 @@ OUTPUTTING CONTENT DYNAMICALLY
     while destruncturing it we do it via using the name children as it literally is a property name in this case also we have not given it the name but that is what it does 
 
     so just like that we have two options on our table to get the data from inside of the element
-    using the simple kind
+    using the simple kind were we input the text to a parameter which is set on the actaull function and then pass the value  to this parameter in the argument then we use it
+
+    there is another way which is using the inbuilt way of using the children property and the data from inside of the operning and closing tag like that
+
+
+
 
 
 
