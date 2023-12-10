@@ -1,4 +1,4 @@
-import React, { useDebugValue } from "react";
+import React, { useDebugValue, useState } from "react";
 import img from "./assets/react-core-concepts.png";
 import img2 from "./assets/components.png";
 import { CORE_CONCEPTS } from "./data";
@@ -6,16 +6,24 @@ import Header from "./Components/Header.jsx"
 import { CoreConcept } from "./Components/CoreConcepts.jsx";
 import TabButton from "./Components/TabButtons.jsx";
 
-//this function here, gives us a random number between zero and two
-
 function App() {
 
+  const [dynamicText  , setDynamicText] = useState("please use the button")
+  const [dynamicHeading , setDynamicHeading] = useState("Heading")
+  const [dynamicCode , setDynamicCode] = useState("what basic sytax looks like:")
+
+
+
   function handleSelect(selectedButton){
-    //slected buton -- "components", "jsx" , "props" , "state"should contain the actuall dynamic content which we are going to show in the dynamic conten
-    console.log(selectedButton)
+    setDynamicText(CORE_CONCEPTS[selectedButton].description)
+    setDynamicHeading(CORE_CONCEPTS[selectedButton].title )
+    setDynamicCode(CORE_CONCEPTS[selectedButton].code)
   }
- 
+
+  console.log(dynamicText)
+
   return (
+
     <div>
       <Header/>
       <main>
@@ -39,17 +47,26 @@ function App() {
           <h2>Exmaples</h2>
           <menu>
 
-            <TabButton onSelect={() => handleSelect("Componets")} buttonInfo="Components "/>
-            <TabButton onSelect={() => handleSelect("JSX")} buttonInfo="JSX" />
-            <TabButton onSelect={() => handleSelect("Props")} buttonInfo="Props"/> 
-            <TabButton onSelect={() => handleSelect("State")} buttonInfo="State"/>                
-            <TabButton onSelect={handleSelect} >--Trial Button--</TabButton>
+            <TabButton onSelect={() => handleSelect(0)} buttonInfo="Components "/>
+            <TabButton onSelect={() => handleSelect(1)} buttonInfo="JSX" />
+            <TabButton onSelect={() => handleSelect(2)} buttonInfo="Props"/> 
+            <TabButton onSelect={() => handleSelect(3)} buttonInfo="State"/>                
+            <TabButton onSelect={() => handleSelect("trial for the child property ")} >--Trial Button--</TabButton>
            
           </menu>
-          Dynamic Component
+          <div id="tab-content">
+            <h3>{dynamicHeading}</h3>
+            <p>{dynamicText}</p>
+            <pre>
+              <code>
+                {dynamicCode}
+              </code>
+            </pre>
+
+          </div>
+
+          {dynamicText}
         </section>
-
-
       </main>
     </div>
   );

@@ -88,6 +88,15 @@ PASSING ARAGUMENT TO THE A FUNCTION WHEN IT IS CALLED IN A everyting
     -onClick={() => actuallFunction() } in this case the anonymous functon wont be called immediately but after it is clicked
 
 
+USE STATE HOOK 
+
+    -hooks should be called inside of the component function 
+    -hooks should be called on the TOP level only 
+
+
+
+
+
 
 
 
