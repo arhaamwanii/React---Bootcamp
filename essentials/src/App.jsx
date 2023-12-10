@@ -12,7 +12,7 @@ function App() {
 
   function handleSelect(selectedButton){
     //slected buton -- "components", "jsx" , "props" , "state"should contain the actuall dynamic content which we are going to show in the dynamic conten
-    console.log("Stuff here is in the Handle Select Function" )
+    console.log(selectedButton)
   }
  
   return (
@@ -27,8 +27,8 @@ function App() {
               title={CORE_CONCEPTS[0].title}
               description={CORE_CONCEPTS[0].description}
           />
-            <CoreConcept  {...CORE_CONCEPTS[1]}/>
-            <CoreConcept  {...CORE_CONCEPTS[2]}/>
+            <CoreConcept {...CORE_CONCEPTS[1]}/>
+            <CoreConcept {...CORE_CONCEPTS[2]}/>
             <CoreConcept {...CORE_CONCEPTS[3]}/>
         </ul>
         </section>
@@ -38,11 +38,12 @@ function App() {
         <section id="examples" >
           <h2>Exmaples</h2>
           <menu>
-            <TabButton onSelect={handleSelect} buttonInfo="Components "/>
-            <TabButton onSelect={handleSelect} buttonInfo="JSX"/>
-            <TabButton onSelect={handleSelect} buttonInfo="Props"/>
-            <TabButton onSelect={handleSelect} buttonInfo="State"/>                
-            <TabButton onClick={handleSelect} >--Trial Button--</TabButton>
+
+            <TabButton onSelect={() => handleSelect("Componets")} buttonInfo="Components "/>
+            <TabButton onSelect={() => handleSelect("JSX")} buttonInfo="JSX" />
+            <TabButton onSelect={() => handleSelect("Props")} buttonInfo="Props"/> 
+            <TabButton onSelect={() => handleSelect("State")} buttonInfo="State"/>                
+            <TabButton onSelect={handleSelect} >--Trial Button--</TabButton>
            
           </menu>
           Dynamic Component

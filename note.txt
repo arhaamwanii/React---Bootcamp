@@ -80,8 +80,12 @@ OUTPUTTING CONTENT DYNAMICALLY
 
     there is another way which is using the inbuilt way of using the children property and the data from inside of the operning and closing tag like that
 
+PASSING ARAGUMENT TO THE A FUNCTION WHEN IT IS CALLED IN A everyting
 
+    - we cant do it derectly as it will resutl in the function getting called immediatley
+    -what we do is that we call the function by calling an anonymous function which wont be called immedatelty in that case
 
+    -onClick={() => actuallFunction() } in this case the anonymous functon wont be called immediately but after it is clicked
 
 
 

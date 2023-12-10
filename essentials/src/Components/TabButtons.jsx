@@ -1,6 +1,4 @@
 export default function TabButton({buttonInfo , onSelect , children}){
-   
-    onSelect
 
     return(
         <>
