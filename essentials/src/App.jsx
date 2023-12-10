@@ -75,7 +75,7 @@ export default App;
 
 
 
-//we have the use state of the heading name which by default contains nothing we apply a check on that i.e if it contains nothing we will show on the display nothing -- but if it contains something then that will not be showed instead something else will which in that case is the whole ass another section
+//we have the use state of the heading name which by default contains nothing we apply a check on that i.e if it contains nothing we will show on the display nothing -- but if it contains something then that will not be showed instead something else will which in that case is the whole ass another section, -- unless we dont have aything in that variable which by default we dont then we put it in there via using its callback in the usestate function
 
 
 
