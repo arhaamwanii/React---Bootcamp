@@ -8,9 +8,9 @@ import TabButton from "./Components/TabButtons.jsx";
 
 function App() {
 
-  const [dynamicText  , setDynamicText] = useState("please use the button")
-  const [dynamicHeading , setDynamicHeading] = useState("Heading")
-  const [dynamicCode , setDynamicCode] = useState("what basic sytax looks like:")
+  const [dynamicText  , setDynamicText] = useState(null)
+  const [dynamicHeading , setDynamicHeading] = useState(null)
+  const [dynamicCode , setDynamicCode] = useState(null)
 
 
 
