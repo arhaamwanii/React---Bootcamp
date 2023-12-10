@@ -1,10 +1,10 @@
-export default function TabButton({buttonInfo , onClick , onSelect , props , children}){
+export default function TabButton({buttonInfo , onClick , onSelect , children}){
    
     
     function handleClick(params) {
         console.log("Call Back 01")
     }
-
+    handleSelect()
     return(
         <>
             <li>

@@ -38,7 +38,7 @@ function App() {
         <section id="examples" >
           <h2>Exmaples</h2>
           <menu>
-            <TabButton onClick={handleSelect} buttonInfo="Components "/>
+            <TabButton onSelect={handleSelect} buttonInfo="Components "/>
             <TabButton buttonInfo="JSX"/>
             <TabButton buttonInfo="Props"/>
             <TabButton buttonInfo="State"/>                
