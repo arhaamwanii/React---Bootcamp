@@ -15,7 +15,8 @@ function Fuck(props){
   function DifferentFunction(){
     return(
       <div>
-        <br />
+     <p></p>
+        {/* <br />
         <br />
         <br />
         <br />
@@ -33,7 +34,7 @@ function Fuck(props){
         <h1> <i>TRIAL CODE</i> </h1>
            <Fuck name="Arham" age="17" logic="they dont know me son"/>
             <Fuck name="Dayyan" age="13" logic="gotta gain moemntun in the right direction"/>
-        <h1><i>TRIAL CODE</i> </h1>
+        <h1><i>TRIAL CODE</i> </h1> */}
       </div>
     )
   }
