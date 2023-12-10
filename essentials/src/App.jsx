@@ -38,13 +38,14 @@ function App() {
         <section id="examples" >
           <h2>Exmaples</h2>
           <menu>
-            <TabButton onSelect={handleSelect} buttonInfo="Components "/>
+            <TabButton onClick={handleSelect} buttonInfo="Components "/>
             <TabButton buttonInfo="JSX"/>
             <TabButton buttonInfo="Props"/>
             <TabButton buttonInfo="State"/>                
-            <TabButton buttonInfo="trial button" >Trial Button</TabButton>
+            <TabButton >--Trial Button--</TabButton>
            
           </menu>
+          Dynamic Component
         </section>
 
 
