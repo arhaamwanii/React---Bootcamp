@@ -8,10 +8,9 @@ import TabButton from "./Components/TabButtons.jsx";
 
 function App() {
 
-  const [dynamicText  , setDynamicText] = useState(null)
+  const [dynamicText  , setDynamicText] = useState()
   const [dynamicHeading , setDynamicHeading] = useState(null)
   const [dynamicCode , setDynamicCode] = useState(null)
-
 
 
   function handleSelect(selectedButton){
@@ -54,6 +53,8 @@ function App() {
             <TabButton onSelect={() => handleSelect("trial for the child property ")} >--Trial Button--</TabButton>
            
           </menu>
+          {!dynamicText ? <p>This code will be showed when user has yet to enter any data</p> : null}
+          {dynamicText ?
           <div id="tab-content">
             <h3>{dynamicHeading}</h3>
             <p>{dynamicText}</p>
@@ -61,11 +62,8 @@ function App() {
               <code>
                 {dynamicCode}
               </code>
-            </pre>
-
-          </div>
-
-          {dynamicText}
+            </pre>       
+          </div> : null }
         </section>
       </main>
     </div>
@@ -77,7 +75,7 @@ export default App;
 
 
 
-
+//we have the use state of the heading name which by default contains nothing we apply a check on that i.e if it contains nothing we will show on the display nothing -- but if it contains something then that will not be showed instead something else will which in that case is the whole ass another section
 
 
 
