@@ -46,14 +46,14 @@ function App() {
           <h2>Exmaples</h2>
           <menu>
 
-            <TabButton onSelect={() => handleSelect(0)} buttonInfo="Components "/>
-            <TabButton onSelect={() => handleSelect(1)} buttonInfo="JSX" />
-            <TabButton onSelect={() => handleSelect(2)} buttonInfo="Props"/> 
-            <TabButton onSelect={() => handleSelect(3)} buttonInfo="State"/>                
-            <TabButton onSelect={() => handleSelect("trial for the child property ")} >--Trial Button--</TabButton>
+            <TabButton isSelected={dynamicHeading == "Components"} onSelect={() => handleSelect(0)} buttonInfo="Components "/>
+            <TabButton isSelected={dynamicHeading == "JSX"}  onSelect={() => handleSelect(1)} buttonInfo="JSX" />
+            <TabButton isSelected={dynamicHeading == "Props"}  onSelect={() => handleSelect(2)} buttonInfo="Props"/> 
+            <TabButton isSelected={dynamicHeading == "State"}  onSelect={() => handleSelect(3)} buttonInfo="State"/>                
+            <TabButton isSelected={dynamicHeading == "components"}  onSelect={() => handleSelect("trial for the child property ")} >--Trial Button--</TabButton>
            
           </menu>
-          {!dynamicText ? <p>This code will be showed when user has yet to enter any data</p> : null}
+          {!dynamicText && <p>This code will be showed when user has yet to enter any data</p>}
           {dynamicText ?
           <div id="tab-content">
             <h3>{dynamicHeading}</h3>
@@ -76,6 +76,8 @@ export default App;
 
 
 //we have the use state of the heading name which by default contains nothing we apply a check on that i.e if it contains nothing we will show on the display nothing -- but if it contains something then that will not be showed instead something else will which in that case is the whole ass another section, -- unless we dont have aything in that variable which by default we dont then we put it in there via using its callback in the usestate function
+// && this is used as a check
+     //   "&&"   and -which basically means that when the first one is true second one will be done but if it is not then it wont be done
 
 
 
