@@ -1,19 +1,20 @@
-export default function TabButton({buttonInfo , onClick , onSelect , children}){
+export default function TabButton({buttonInfo , onSelect , children}){
    
-    
-    function handleClick(params) {
-        console.log("Call Back 01")
-    }
-    handleSelect()
+    onSelect
+
     return(
         <>
             <li>
-                <button onClick={handleClick} >{buttonInfo} {children}</button>
+                <button onClick={onSelect} >{buttonInfo} {children}</button>
             </li>
         </>
 
     )
 }
+
+
+
+
 
 //onClick is inbuilt
 

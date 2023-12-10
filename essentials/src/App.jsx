@@ -11,7 +11,7 @@ import TabButton from "./Components/TabButtons.jsx";
 function App() {
 
   function handleSelect(selectedButton){
-    //slected buton containing
+    //slected buton -- "components", "jsx" , "props" , "state"should contain the actuall dynamic content which we are going to show in the dynamic conten
     console.log("Stuff here is in the Handle Select Function" )
   }
  
@@ -39,10 +39,10 @@ function App() {
           <h2>Exmaples</h2>
           <menu>
             <TabButton onSelect={handleSelect} buttonInfo="Components "/>
-            <TabButton buttonInfo="JSX"/>
-            <TabButton buttonInfo="Props"/>
-            <TabButton buttonInfo="State"/>                
-            <TabButton >--Trial Button--</TabButton>
+            <TabButton onSelect={handleSelect} buttonInfo="JSX"/>
+            <TabButton onSelect={handleSelect} buttonInfo="Props"/>
+            <TabButton onSelect={handleSelect} buttonInfo="State"/>                
+            <TabButton onClick={handleSelect} >--Trial Button--</TabButton>
            
           </menu>
           Dynamic Component
