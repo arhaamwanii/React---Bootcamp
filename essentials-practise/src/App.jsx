@@ -7,11 +7,12 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className='bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700'> 
+    <div className=''> 
         <h1>how are you today </h1>
     </div>
   )
 }
 
 export default App
+
 
