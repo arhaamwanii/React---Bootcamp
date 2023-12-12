@@ -7,7 +7,8 @@ function App() {
   return (
     <>
     <div id="container">
-      <h1>Hello</h1>
+      <h1>React Essentials</h1>
+      
     </div>
     </>
   )
