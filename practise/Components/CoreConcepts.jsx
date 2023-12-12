@@ -1,6 +1,6 @@
 import React from 'react'
 
-function CoreConcept(header , image , discription) {
+function CoreConcept({header , image , discription}) {
   return (
     <div>
       <img src={image} alt={discription} />    
