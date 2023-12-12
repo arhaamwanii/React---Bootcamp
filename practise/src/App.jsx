@@ -18,7 +18,7 @@ function App() {
           <CoreConcept image={CORE_CONCEPTS[2].image} header={CORE_CONCEPTS[2].title} discription={CORE_CONCEPTS[2].description}/>
           <CoreConcept image={CORE_CONCEPTS[3].image} header={CORE_CONCEPTS[3].title} discription={CORE_CONCEPTS[3].description}/>
         </div>
-        
+
 
     </div>
     
