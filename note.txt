@@ -98,7 +98,7 @@ OUTPUTTING CONTENT CODITIONALLY
 
     - ? => if 
     - : => else
-
+angq
     - &&  and is used in a way that if the first bit of the code is true then then second bit of the code will be executed,, if not then nothing will happen
     
 
