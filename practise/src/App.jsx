@@ -8,6 +8,7 @@ function App() {
     <>
     <div id="container">
       <h1>React Essentials</h1>
+      <h3 style={{color: 'grey'}}>These are the Fundamental Building blocks of The React</h3>
       
     </div>
     </>
