@@ -13,6 +13,10 @@ JSX
     -jsx is not supported in the browsern --- so it getts converted by the devlopmetn server
     -react shortens the code while compinling it 
 
+    -build porcess runs behind the scence
+    -we dont need jsx. we can ues create element to do all of thi, in that case we wont require a build process 
+    -
+
 REACT-scripts
     -these scrpits are what convert the code actaully
     -vite has its own scripts and engines 
@@ -98,13 +102,13 @@ OUTPUTTING CONTENT CODITIONALLY
 
     - ? => if 
     - : => else
-angq
+
     - &&  and is used in a way that if the first bit of the code is true then then second bit of the code will be executed,, if not then nothing will happen
     
 
     comment number 11 of the day
     comment number 12 of the day
-    
+
     
     
 
