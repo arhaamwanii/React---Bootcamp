@@ -7,3 +7,5 @@ export default function CoreConcept({ image, title, description }) {
     </li>
   );
 }
+
+//arham amin wani it is arham amin wani

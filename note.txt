@@ -109,7 +109,20 @@ OUTPUTTING CONTENT CODITIONALLY
     comment number 11 of the day
     comment number 12 of the day
 
+RETURN
     
+    -we return a single value
+    -in a simple function also we also are not able to return values in a simple function 
+    -thats why we wrap this in div
+
+FRAGMENT
+
+    -if you want to get rid of this unecessary div in the actuall html code
+    -we can use inbuilt component -- called FRAGMENT
+    -we import fragment and then use it to wrap the code, in that case the div wont be showed in the acutall code but it does exist in our devloper environment
+
+    <></>
+    this shit is an alternative the same
     
 
 
