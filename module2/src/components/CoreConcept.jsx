@@ -9,3 +9,4 @@ export default function CoreConcept({ image, title, description }) {
 }
 
 //arham amin wani it is arham amin wani
+//it is a very good deal to lool at it
