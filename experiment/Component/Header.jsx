@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Header({onCLick}) {
+function Header({onCLick , number}) {
   return (
     <div className='button' >
         <button onClick={onCLick} >Click Me</button>
@@ -9,3 +9,5 @@ function Header({onCLick}) {
 }
 
 export default Header
+
+//

@@ -4,13 +4,13 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Header from '../Component/Header'
 
-
-function App() {
   const [number , setNumber] = useState(0)
+function App() {
+
 
   return (
     <>
-     <Header onClick={() => setNumber(number + 1) }/>
+     <Header number={number} onCLick={() => setNumber(number + 1) }/>
       <h1>{number}</h1>
     </>
   )
