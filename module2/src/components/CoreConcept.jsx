@@ -1,4 +1,4 @@
-export default function CoreConcept({ image, title, description }) {
+export default function CoreConcept({ image , title = "default text",  description }) {
   return (
     <li>
       <img src={image} alt={title} />
@@ -8,7 +8,4 @@ export default function CoreConcept({ image, title, description }) {
   );
 }
 
-//comment attempt 14 dec
-//comment again on 14 dec 
-// and yet again on 14 dec
-//agian and again and again
+//the thing is simple the -- react essentials advanced will be finished on 14 dec

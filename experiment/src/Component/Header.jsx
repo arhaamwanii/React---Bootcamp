@@ -1,13 +1,13 @@
 import React from 'react'
 
-function Header({onCLick , number}) {
+function Header({onCLick , number ="arhma"}) {
   return (
-    <div className='button' >
+    <div  >
         <button onClick={onCLick} >Click Me</button>
+        <h1>{number}</h1>
     </div>
   )
 }
 
 export default Header
 
-//

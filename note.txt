@@ -125,8 +125,14 @@ FRAGMENT
     this shit is an alternative the same
     
 
+TIC-TAK-TOE
 
+    -root element in the html at the end is going to be controlled by react 
+    -if we put something in the public folder we dont have to specify its location just put in the name of the file -- as it will be served with the html file in the actuall file -- very specifially the files in the pubelic folder are made availale
     
+    -making the names dynamic 
+    -when the edit button is pressed we want to show an input field and repalace the content in the palyer name span 
+    -while we are doing the editing the edit button should change to save 
 
 
 
