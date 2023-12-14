@@ -35,3 +35,6 @@ function Player({intialName , symbol}) {
 }
 
 export default Player
+
+// logic one 
+// we display two things here based on a click we diecide which one to show, we have a button and
