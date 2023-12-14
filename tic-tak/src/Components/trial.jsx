@@ -1,9 +1,9 @@
 import React from 'react'
 import { useState } from 'react'
 
-function trial() {
+function Trial() {
 
-    const [checkButton , setCheckButton ] = useState(true)
+    const [checkButton , setCheckButton ] = useState(true);
 
     function one(){
         if (checkButton) {
@@ -21,4 +21,4 @@ function trial() {
   )
 }
 
-export default trial
+export default Trial

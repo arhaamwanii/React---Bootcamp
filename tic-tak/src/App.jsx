@@ -2,6 +2,7 @@ import React from "react"
 import Header from "./Components/Header"
 import Player from "./Components/Player"
 import GameBoard from "./Components/GameBoard"
+import Trial from "./Components/trial"
 
 function App() {
   
@@ -16,6 +17,7 @@ function App() {
         </ol>
 
         <GameBoard/>
+        <Trial/>
       </div>
     </main>
     </>
