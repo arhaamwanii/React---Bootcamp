@@ -29,7 +29,7 @@ function Player({intialName , symbol}) {
             <span className="player-symbol">{symbol}</span>
         </span>
         <button onClick={() => setIsEditing(!isEditing)}>{ isEditing ? "Save" : "Edit" }</button>
-        {console.log(isEditing)}
+        
     </li>
   )
 }
