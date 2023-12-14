@@ -13,7 +13,6 @@ function trial() {
         }
     }
 
-
   return (
     <>
     {one()}
