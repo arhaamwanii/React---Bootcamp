@@ -8,4 +8,5 @@ export default function CoreConcept({ image, title, description }) {
   );
 }
 
-//comment attempt 14 dec 
+//comment attempt 14 dec
+//comment again on 14 dec 
