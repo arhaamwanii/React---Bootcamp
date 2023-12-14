@@ -134,6 +134,27 @@ TIC-TAK-TOE
     -when the edit button is pressed we want to show an input field and repalace the content in the palyer name span 
     -while we are doing the editing the edit button should change to save 
 
+    -to use an if else state be used inside of an function we call an anonymouns function inside of the code and then make it use the if else statement --- then inside this fuction if are using full form of the if else statement we have to use RETURN inside each if else seperately but if we are using the smaller sytax we can use the return statement direcltly on the front of everting but the same thng does not work for the full version\\
+
+    -every we call a component it creates a new instent -- thus every call back reuslts in a formation of a new instent in which the code is ran
+
+    -there is a sytax issue in wrapping the ternary operator inside of an anonymous function it wont get executed  properly, istead we can use the simple syntax of uaing it direclty instead 
+
+    -we dont change the state of a state variable based on its previous value directly
+    -we call an anonymous functipon inside of the set state variable and then - recieve the actaull value of the variable in another variable and then we alter that variable 
+    -this syntax is used because, react shedules the callback of the function based on the input
+    -in this way we ensure that we always have acess to the latest value which has been provided, such that case the sates are updated correclty
+    -this prevents calshes and this in general is the best prractise
+
+
+    -value attribut used in the input filed overwirtes any change we want to make  and just like that making it un editable
+
+    -using defaultValue instead just sets the inital value instead 
+
+
+
+
+
 
 
     

@@ -2,25 +2,27 @@ import React from 'react'
 import { useState } from 'react'
 
 
-
-function Player({name , symbol}) {
+function Player({intialName , symbol}) {
+    
+    const [playerName , setPlayerName] = useState(intialName)
     const [isEditing , setIsEditing] = useState(false);
-   
-    const see = () => {
-        return isEditing ? (
-          <input type="text" />
-        ) : (
-          <span className="player-name">{name}</span>
-        );
-      };
-      
+    
+    const hadleEditCLick = () => {
+        setIsEditing((useSyntax) => !useSyntax ) }
+
+    const see = () => {  if (isEditing === true) {
+        return <input type="text" value={intialName} />
+    } else {
+        return <span className="player-name">{intialName}</span>
+    }}
+
   return (
     <li>
         <span className="player">
             {see()}
             <span className="player-symbol">{symbol}</span>
         </span>
-        <button onClick={() => setIsEditing(!isEditing)}>Edit</button>
+        <button onClick={() => setIsEditing(!isEditing)}>{ isEditing ? "Save" : "Edit" }</button>
         {console.log(isEditing)}
     </li>
   )
