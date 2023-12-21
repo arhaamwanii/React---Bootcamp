@@ -41,4 +41,4 @@ export default Player
 //in the end we all die
 //in end we all die
 //all we have is a good deal 
-//
+//in the end we all die
