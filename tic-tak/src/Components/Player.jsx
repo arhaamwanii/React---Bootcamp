@@ -36,3 +36,4 @@ function Player({intialName , symbol}) {
 
 export default Player
 
+//in the end
