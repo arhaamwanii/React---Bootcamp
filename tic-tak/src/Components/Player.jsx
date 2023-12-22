@@ -36,6 +36,3 @@ function Player({intialName , symbol}) {
 
 export default Player
 
-//in the end
-//if you cant control your own mind and your mind controls you 
-//you are fucked
