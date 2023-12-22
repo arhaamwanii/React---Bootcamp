@@ -36,4 +36,4 @@ function Player({intialName , symbol}) {
 
 export default Player
 
-//
+//is it true that we all have the same thing in c
